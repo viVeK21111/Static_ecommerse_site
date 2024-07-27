@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>SeaHome</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         .nav-link:hover {
@@ -18,9 +18,13 @@
             flex-direction: column;
             min-height: 100vh;
         }
+        .header {
+            border-radius:10px;
+        }
+        
     </style>
 </head>
-<body style="background-color: rgb(11, 15, 73);">
+<body style="background-image:url('./pics/bg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">SeaHome</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,17 +48,16 @@
         </div>
     </nav>
 
-    <div class="header">
-        <div class="container mt-5 ml-3 text-white pl-2 pt-2 pb-5" style="font-size:large; border-radius:12px;">
-            <p>We sell all the trending creatures for home aquarium, like fish,octopus,turtles and etc.
-                Explore the items in gallery and please feel free to give feedback.</p>
+    <div class="container ml-1 mr-5">
+        <div class="header mt-3 bg-white text-dark p-3">
+            <h5><b>We sell all the trending creatures for home aquariums, like fish, octopus, turtles, etc. Explore the items in the gallery and please feel free to give feedback.</b></h5>
         </div>
     </div>
 
-    <div class="footer mt-auto" style="font-size: 20px;">
+    <div class="footer mt-auto">
         <div class="container-fluid bg-dark">
             <div class="text-center p-3">
-                <a style="text-decoration: underline; color: white;" href="modal_sample.html">Logout</a>
+                <a class="text-white" style="text-decoration: underline;" href="modal_sample.html">Logout</a>
             </div>
         </div>
     </div>
