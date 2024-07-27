@@ -1,50 +1,67 @@
+<!DOCTYPE html>
 <html>
-    <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Aboutus</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <style> 
-            .header {
-                width: 50%;
-                
-            }
-           body {
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .header {
+            width: 50%;
+        }
+        body {
             display: flex;
             flex-direction: column;
             min-height: 100vh;
-           }
-
-        </style>
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
-            <a class="navbar-brand" href="#">Portfolio</a>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
+            background-color: rgb(11, 15, 73);
+        }
+        .nav-link:hover {
+            color: rgb(221, 219, 98) !important;
+        }
+        .nav-link {
+            padding: 0px;
+            margin: 0px;
+        }
+        .footer {
+            font-size: 20px;
+            background-color: rgb(11, 15, 73);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
+        <a class="navbar-brand" href="ecom.html">SeaHome</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="ecom.html">Home</a>
+                    <a class="nav-link" href="ecom.html">Home</a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="about.html">AboutUs</a>
+                    <a class="nav-link" href="about.html">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact Us</a>
+                    <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="gallery.html">Products</a>
+                    <a class="nav-link" href="gallery.html">Products</a>
                 </li>
-              </ul>
-            </div>
-          </nav>
-    
-          <div class="header text-center m-auto bg-primary">
-            <h3>Welcome to aboutUs page</h3>
-          </div>
-
-
-          <div class="footer mt-auto text-center p-3 bg-dark">
-            <a style="text-decoration: underline;" href="modal_sample.html">Logout</a>
-            <p style="color: white;">copyrights reserved</p>
+            </ul>
         </div>
-    </body>
-</html> 
+    </nav>
+
+    <div class="header text-center m-auto bg-primary">
+        <h3>Welcome to About Us page</h3>
+    </div>
+
+    <div class="footer mt-auto text-center p-3">
+        <a style="text-decoration: underline; color: white;" href="modal_sample.html">Logout</a>
+        <p style="color: white;">© copyrights reserved</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
